@@ -8,7 +8,6 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase
 {
-
     protected function onEnable(): void
     {
         $this->getServer()->getPluginManager()->registerEvent(
@@ -20,5 +19,4 @@ class Main extends PluginBase
             $this
         );
     }
-
 }
