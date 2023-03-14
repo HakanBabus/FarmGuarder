@@ -1,0 +1,8 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/HakanBabus/FarmGuarder
+build-by-default: true
+branches:
+- API4
+projects:
+  FarmGuarder:
+    path: ""
+...
